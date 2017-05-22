@@ -1,0 +1,112 @@
+section, header, article, nav{
+	display: block;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	margin: 1em 10%;
+	/* background-color: url(../images/background.jpg); */
+	background-attachment: fixed;
+	background-position: top left;
+	background-repeat: repeat-x;
+	max-width: 80em
+}
+
+header{
+	background-image: url(../images/timg.jpg); 
+	background-repeat: no-repeat;
+	background-position: top right;
+	border-width: .1em;
+	border-style: solid;
+	border-bottom-width: 0;
+}
+header nav{
+	/* background-color: url(../images/background.jpg); */
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	border-width: .1em;
+	border-style: solid;
+	border-bottom-width: 0;
+	border-top-width: 0;
+	padding-left: 10%;
+	margin-top: -3px;
+}
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+	border-left-width: .1em;
+	border-left-style: solid;
+}
+header nav li{
+	display: inline;
+}
+header nav li a{
+	display: block;
+	float: left;
+	padding: .5em 2em;
+	border-right: .1em solid;
+}
+
+article{
+	border-width: .1em;
+	border-style: solid;
+	border-top-width: 0;
+	padding: 2em 10%;
+	line-height: 1.8em;
+}
+article img{
+	border-width: .1em;
+	border-style: solid;
+	outline-width: .1em;
+	outline-style: solid;
+}
+
+#about header{
+	background-image: url(../images/1.jpg);
+}
+#photos header{
+	background-image: url(../images/2.jpg);
+}
+#live header{
+	background-image: url(../images/3.jpg);
+}
+#contact header{
+	background-image: url(../images/4.jpg);
+}
+
+//contact
+label{
+	display: block;
+}
+fieldset{
+	border:0;
+}
+
+//photos
+#imagegallery{
+	display: inline;
+}
+#imagegallery li{
+	display: inline;
+}
+
+
+//live
+tr,td{
+	width: 20em;
+	padding: .5em;
+}
+td{
+	padding:.5em 3em;
+}
+dl{
+	overflow: hidden;
+}
+dt{
+	float: left;
+}
+dd{
+	float: left;
+}
